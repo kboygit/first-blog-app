@@ -224,7 +224,7 @@ hr.small {
   color: #0085A1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -250,7 +250,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 25px;
   }
 }
 .section-heading {
@@ -397,4 +397,15 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
+}
+
+
+/* KIRBY's ARTICLE */
+
+article > .container > .row > .post-title  {
+  font-size: 20px;
+}
+
+article > .container > .post-subtitle {
+  font-size: 18px;
 }
