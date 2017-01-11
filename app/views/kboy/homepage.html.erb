@@ -46,6 +46,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-preview">
+                  <a href="/post">
+                      <h2 class="post-title">
+                          Started my day by reading some blog post,documentations on AWS Amazon, and good vibes ...
+                      </h2>
+                      <h3 class="post-subtitle">
+                          Today will focus on javascript , and I learned how to deploy a rails app using AWS Elasticbeanstalk API...
+                      </h3>
+                  </a>
+                  <p class="post-meta">Posted by <a href="/about">Kirby</a> on January 11, 2016</p>
+
+                  <%= render 'layouts/favicons' %>
+
+              </div>
+              <hr>
                 <div class="post-preview">
                     <a href="/post">
                         <h2 class="post-title">
@@ -55,7 +70,7 @@
                             Schedule would be half in the morning would be c and c++ for preparation for school in the upcoming spring semester.Yep I am going to school again...
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="/about">Kirby</a> on January   10, 2016</p>
+                    <p class="post-meta">Posted by <a href="/about">Kirby</a> on January 10, 2016</p>
 
                     <%= render 'layouts/favicons' %>
 
@@ -107,12 +122,8 @@
 
                 </div>
                 <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+                  <!-- Pager -->
+                  <%= render 'layouts/pager' %>
             </div>
         </div>
     </div>
