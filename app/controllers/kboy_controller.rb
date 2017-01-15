@@ -10,4 +10,7 @@ class KboyController < ApplicationController
 
   def about
   end
+
+  def project
+  end
 end

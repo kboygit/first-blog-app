@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   get '/homepage',      to: 'kboy#homepage'
   get '/post',          to: 'kboy#post'
+  get '/project',       to: 'kboy#project'
   get '/about',         to: 'kboy#about'
   get '/contact',       to: 'kboy#contact'
+
 
   root 'kboy#homepage'
 
